@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>The illusive Tracker</title>
+        <link rel="stylesheet" href="style.css">
+                <div id="title">The illusive Tracker</div>
+    </head>
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    </style>
+    <body>
+        <div id="inputs">
+            <input id="elims" placeholder="Eliminations" type="number" step="0.01" maxlength="2" required >
+            <input id="kills" placeholder="Kills" type="number" step="0.01" required>
+            <input id="deaths" placeholder="Deaths" type="number" step="0.01" required> 
+        </div>
+        
+      
+        
+    </body>
+
+    <body id="buttons">
+        <div id="sbutton">
+                <button id="submit">Submit</button>
+        </div>
+
+        <div id="dropdown">
+            <select name="placement" id="placement" required>
+            <option value=""></option>
+            <option value="1">1st</option>
+            <option value="2">2nd</option>
+            <option value="3">3rd</option>
+            <option value="4">4th</option>
+            <option value="5">5th</option>
+            <option value="6">6th</option>
+            <option value="7">7th</option>
+            <option value="8">8th</option>
+            <option value="9">9th</option>
+            <option value="10">10th</option>
+            <option value="11">11th</option>
+            <option value="12">12th</option>
+            <option value="13">13th</option>
+        </div>
+
+    </body>
+    <script type="module" src="server.js"></script>
+
+</html>
